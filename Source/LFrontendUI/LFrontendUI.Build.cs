@@ -14,7 +14,8 @@ public class LFrontendUI : ModuleRules
 		"Engine",
 		"InputCore",
 		"EnhancedInput",
-        "GameplayTags"});
+        "GameplayTags",
+		"UMG"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
