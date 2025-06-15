@@ -18,6 +18,8 @@ void  UWidget_PrimaryLayout::RegisterWidgetStack(UPARAM(meta = (Categories = "Fr
 		if (RegisteredWidgetStackMap.Contains(InStackTag))
 		{
 			RegisteredWidgetStackMap.Add(InStackTag, InStack);
+
+			Debug::Print(TEXT("Widget stack registrered under the tag: ") + InStackTag.ToString());
 		}
 	}
 }
